@@ -22,7 +22,7 @@ function onMouseMove(event) {
     const y = event.offsetY;
     if(!painting){
         ctx.beginPath();
-        ctx.moveTo(x, y)
+        ctx.moveTo(x, y);
     }
 }
 
